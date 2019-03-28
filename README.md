@@ -6,6 +6,8 @@ Well, now you can in 3 simple steps: Generate a random word, flesh out your powe
 
 Of course, it's a little more complicated than that, so you'll have to read the rules. But don't worry! All the rules fit onto one side of A4 paper, so you don't have to get bogged down in pages of terms and conditions.
 
+[Download the rules now](https://github.com/SnailCreature/stopthevillain/raw/master/StopTheVillainVer0-4-beta.pdf) or check the repository above.
+
 ## Helpful Links
 [Random word generator](https://www.textfixer.com/tools/random-words.php)
 
