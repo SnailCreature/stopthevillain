@@ -9,6 +9,9 @@ Of course, it's a little more complicated than that, so you'll have to read the 
 [Download the rules now](https://github.com/snailcreature/stopthevillain/raw/master/files/StopTheVillainVer0-4-1-beta.pdf) or check the repository above.
 
 ## Helpful Links
+
+[Web version of rules](https://snailcreature.github.io/stopthevillain/)
+
 [Random word generator](https://www.textfixer.com/tools/random-words.php)
 
 If you play the game, please tweet at me to tell me how it went!
