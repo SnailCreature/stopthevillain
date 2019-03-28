@@ -63,6 +63,10 @@ a:hover {
     transition: all ease-in .1s;
 }
 
+footer p    {
+    text-align: center;
+}
+
 #mainheading    {
     font-size: 330%;
     font-family: 'Orbitron', sans-serif;
