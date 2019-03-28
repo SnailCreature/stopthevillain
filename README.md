@@ -11,6 +11,8 @@ Of course, it's a little more complicated than that, so you'll have to read the 
 ## Helpful Links
 [Random word generator](https://www.textfixer.com/tools/random-words.php)
 
+If you play the game, please tweet at me to tell me how it went!
+
 Twitter: [@SnailCreature](https://twitter.com/SnailCreature)
 
 ## Licensing
