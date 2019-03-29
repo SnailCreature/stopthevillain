@@ -21,3 +21,14 @@ Twitter: [@SnailCreature](https://twitter.com/SnailCreature)
 ## Licensing
 
 Stop the Villain was created by Sam D, and released under a [CC BY 4.0 License](https://creativecommons.org/licenses/by/4.0/)
+
+
+
+
+## To Do
+
+  [ ] Digital character sheet
+    [ ] Point and Ability tracking
+    [ ] Persistence
+    [ ] Random word generator
+    [ ] Dice roller
