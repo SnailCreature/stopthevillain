@@ -1,41 +1,44 @@
 *   {
     font-family: sans-serif;
     text-align: justify;
+    border-radius: 1em;
 }
 
 body    {
     padding: 0.5em;
     display: flex;
     flex-direction: column;
+
+    background-color: #192a56;
+    color: #dcdde1;
+}
+
+main > p    {
+    text-align: center;
+    padding: .5em;
+    background-color: #273c75;
 }
 
 nav {
-    background-color: darkgrey;
-    padding: 1em 0 1em 0;
-
-    justify-content: center;
-    border-radius: 1em;
-}
-nav li  {
-    list-style-type: none;
-    display: inline-block;
+    width: max-content;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 1em;
 }
 nav a  {
+
+    display: inline-flex;
     text-decoration: none;
-    color: black;
-    padding: 1em 1em 1em 1em;
-    width: max-content;
+    background-color: #0097e6;
+    padding: 1em;
+
+    border-radius: 0.25em;
 
     font-size: 1.5em;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
 }
 nav a:hover {
-    color: grey;
-    background-color: white;
     border-radius: 0.5em;
+    background-color: #00a8ff;
     transition: all ease-in .1s;
 }
 
@@ -43,8 +46,18 @@ h1  {
     text-align: center;
 }
 
+article {
+    background-color: #487eb0;
+    padding: .5em;
+}
+
+article > section:nth-of-type(odd)  {
+    background-color: #40739e;
+}
+
 section {
     padding-bottom: 1em;
+    padding-top: .5em;
 }
 
 p   {
@@ -54,12 +67,16 @@ p   {
 
 a   {
     text-decoration: none;
-    color: #777777;
+    color: #f5f6fa;
+    background-color: #8c7ae6;
     font-style: italic;
     transition: all ease-out 1s;
+    padding: .125em .25em .125em .25em;
+    border-radius: .25em;
 }
 a:hover {
-    color: darkgrey;
+    color: #dcdde1;
+    background-color: #9c88ff;
     transition: all ease-in .1s;
 }
 
@@ -68,7 +85,7 @@ footer p    {
 }
 
 #mainheading    {
-    font-size: 330%;
+    font-size: 3.3em;
     font-family: 'Orbitron', sans-serif;
 }
 
@@ -84,5 +101,9 @@ footer p    {
     main    {
         padding-left: 15vw;
         padding-right: 15vw;
+    }
+
+    article {
+        padding: 1em;
     }
 }
