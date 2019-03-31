@@ -46,6 +46,10 @@ h1  {
     text-align: center;
 }
 
+h2  {
+    padding-left: .5em;
+}
+
 article {
     background-color: #487eb0;
     padding: .5em;
