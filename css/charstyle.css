@@ -1,0 +1,92 @@
+button  {
+    margin-left: 8em;
+    margin-top: .5em;
+    color: #f5f6fa;
+    background-color: #44bd32;
+    transition: all ease-in .1s;
+}
+button:hover    {
+    background-color: #4cd137;
+    transition: all ease-in .1s;
+}
+button:disabled {
+    background-color: #718093;
+}
+button:disabled:hover   {
+    background-color: #7f8fa6;
+}
+
+input, textarea, button {
+    border-radius: .125em;
+    font-size: 1em;
+    border: #273c75;
+}
+
+label, input    {
+    display: block;
+    float: left;
+    width: 8em;
+}
+
+textarea    {
+    resize: none;
+    padding-top: .5em;
+}
+
+#heropoints {
+    text-align: center;
+    width: 2em;
+    -moz-appearance: textfield;
+    appearance: none;
+}
+
+#charasheet > div {
+    display: flex;
+    flex-direction: column;
+    padding-left: .5em;
+    align-content: center;
+}
+#charasheet * {
+    padding-top: .25em;
+    padding-bottom: .25em;
+    margin-bottom: .125em;
+}
+.charasheetattrib, .charsheettext   {
+    display: inline-grid;
+}
+.charsheetattrib    {
+    flex-direction: row;
+}
+.charsheetinput {
+    width: 10em;
+}
+.charsheettext  {
+    flex-direction: column;
+    padding-right: .5em;
+}
+
+#resethp    {
+    margin-top: 2em;
+    margin-left: .5em;
+    background-color: #c23616;
+}
+#resethp:hover  {
+    background-color: #e84118;
+}
+
+@media screen and (min-width: 800px)    {
+    button  {
+        margin-top: 0;
+        margin-left: 1em;
+    }
+
+    #charasheet {
+        display: block;
+        flex-direction: column;
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+    .charsheetinput {
+        width: 15em;
+    }
+}

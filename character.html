@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang=en>
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="A game about random heroes fighting random villains.">
+    <meta name="viewport" content="width=device-width, initial-scale-1.0">
+    <title>Stop the Villain | Character Sheet</title>
+    <link rel="icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/charstyle.css">
+</head>
+
+<script src="js/charsheet.js"></script>
+
+<header>
+    <h1 id="mainheading">Stop the Villain</h1>
+    <nav>
+        <a href=".">Ruleset</a>
+        <a href="about.html">About</a>
+        <a href="character.html">Character Sheet</a>
+    </nav>
+</header>
+
+<main>
+    <h1>Character Sheet</h1>
+
+    <article>
+        <section id="charasheet">
+        <div id="attributes">
+            <div class="charsheetattrib">
+                <label for="name">Hero Name:</label>
+                <input type="text" name="name" placeholder="Spatula Man..." id="charaname" class="charsheetinput">
+            </div>
+
+            <div class="charsheetattrib">
+                <label for="coreword">Core Word:</label>
+                <input type="text" name="coreword" placeholder="Fryer..." id="coreword" class="charsheetinput">
+            </div>
+
+            <div class="charsheetattrib">
+                <label for="heropoints">Hero Points (HP):</label>
+                <input type="number" name="heropoints" id="heropoints" class="charsheetinput" value=10 min=0 readonly>
+                <button type="button" onclick="regainPoints()">Regain HP</button>
+            </div>
+
+            <h2>Abilities</h2>
+            <div class="charsheetattrib">
+                <label for="abltyutil">Utility (1HP):</label>
+                <input type="text" name="abltyutil" placeholder="Make tasty..." id="abltyutil" class="charsheetinput">
+                <button id="utlbttn" type="button" onclick="spendPoints(1)">Use Ability</button>
+            </div>
+
+            <div class="charsheetattrib">
+                <label for="abltymelee">Melee (2HP):</label>
+                <input type="text" name="abltymelee" placeholder="Flip..." id="abltymelee" class="charsheetinput">
+                <button id="melbttn" type="button" onclick="spendPoints(2)">Use Ability</button>
+            </div>
+
+            <div class="charsheetattrib">
+                <label for="abltyrng">Ranged (3HP):</label>
+                <input type="text" name="abltyrng" placeholder="Deepfry..." id="abltyrng" class="charsheetinput">
+                <button id="rngbttn" type="button" onclick="spendPoints(3)">Use Ability</button>
+            </div>
+
+            <div class="charsheetattrib">
+                <label for="weakness">Weakness:</label>
+                <input type="text" name="weakness" placeholder="Clean water..." id="weakness" class="charsheetinput">
+            </div>
+        </div>
+        <div id="otherinfo">
+            <h2>Other</h2>
+            <div class="charsheettext">
+                <label for="backstory">Backstory</label>
+                <textarea name="backstory" placeholder="Was hit by a radioactive deep fat fryer..." id="backstory" cols="30" rows="5"></textarea>
+            </div>
+            
+            <div class="charsheettext">
+                <label for="charadescript">Description</label>
+                <textarea name="charadescript" placeholder="A greasy man in a chef's outfit and a mask..." id="charadescript" cols="30" rows="5"></textarea>
+            </div>
+        </div>
+
+        <button type="button" onclick="setHeroPoints(10)" id="resethp">Reset HP</button>
+        </section>
+    </article>
+
+</main>
+
+<footer>
+    <p>SnailCreature &copy;2019</p>
+    <p>License: <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></p>
+    <p>Twitter: <a href="https://twitter.com/SnailCreature">@SnailCreature</a></p>
+    <p>GitHub: <a href="https://github.com/snailcreature/stopthevillain">Stop the Villain Repository</a></p>
+    <p>Validate this page's <a href="https://validator.w3.org/check?uri=referer" target="_blank">HTML</a> and <a href="https://jigsaw.w3.org/css-validator/check?uri=referer" target="_blank">CSS</a></p>
+</footer>
+
+</html>

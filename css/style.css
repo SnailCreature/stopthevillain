@@ -27,7 +27,7 @@ nav {
 }
 nav a  {
 
-    display: inline-flex;
+    display: block;
     text-decoration: none;
     background-color: #0097e6;
     padding: 1em;
@@ -97,9 +97,14 @@ footer p    {
     font-weight: bold;
 }
 
+/* WIDE SCREEN */
 @media screen and (min-width: 800px)    {
     body    {
         justify-content: center;
+    }
+
+    nav a   {
+        display: inline-flex;
     }
 
     main    {
