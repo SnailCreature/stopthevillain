@@ -31,6 +31,7 @@ nav a  {
     text-decoration: none;
     background-color: #0097e6;
     padding: 1em;
+    margin-bottom: .25em;
 
     border-radius: 0.25em;
 
@@ -105,6 +106,7 @@ footer p    {
 
     nav a   {
         display: inline-flex;
+        margin-bottom: 0;
     }
 
     main    {
