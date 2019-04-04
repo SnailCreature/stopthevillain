@@ -6,17 +6,6 @@ function diceRoll() {
     return roll;
 }
 
-function updateDice()   {
-    const number = diceRoll();
-    document.getElementById("dicegraphic").innerHTML = generateDiceImageSrc(number);
-}
-
-function testDiceRoll(rolls) {
-    for (i = 0; i < rolls; i++) {
-        console.log(diceRoll());
-    }
-}
-
 function generateDiceImageSrc(number)   {
     let src = "";
     const stringNum = number.toString()
@@ -26,4 +15,9 @@ function generateDiceImageSrc(number)   {
     src += '<img src="images/dice' + stringNum + '/dice' + stringNum + 'small.jpeg" alt="' + stringNum + '" title="' + stringNum + '">\n'
 
     return src;
+}
+
+function updateDice()   {
+    const number = diceRoll();
+    document.getElementById("dicegraphic").innerHTML = generateDiceImageSrc(number);
 }
