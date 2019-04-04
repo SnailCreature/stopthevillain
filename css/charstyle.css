@@ -8,6 +8,7 @@ button  {
 button:hover    {
     background-color: #4cd137;
     transition: all ease-in .1s;
+    cursor: pointer;
 }
 button:disabled {
     background-color: #718093;
@@ -94,6 +95,9 @@ textarea    {
     justify-content: center;
     width: max-content;
     height: auto;
+}
+#dice:hover {
+    cursor: pointer;
 }
 #roll    {
     color: #f5f6fa;
