@@ -31,7 +31,7 @@ Stop the Villain was created by Sam D, and released under a [CC BY 4.0 License](
      - [x] Point and Ability tracking
      - [ ] Persistence
      - [ ] Random word generator
-     - [ ] Dice roller
+     - [x] Dice roller
      - [ ] Random placeholder values
    - [ ] Collapsible navigation bar in mobile view
    - [ ] Custom URL
