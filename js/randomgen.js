@@ -59,13 +59,13 @@ const parameters = [
        charadescript:"A thin figure wrapped from head to toe in bandages..."
     },
     {
-       charaname:"Cadeucus...",
+       charaname:"Caduceus...",
        coreword:"Blossom...",
        abltyutil:"Grow plants...",
        abltymelee:"Ivy whip...",
-       abltyrng:"Bee swarm...",
+       abltyrng:"Hello, Bees...",
        weakness:"The cold...",
-       backstory:"Bitten by a radioactive venus fly trap...",
+       backstory:"Drank Tea of the Ancestors...",
        charadescript:"A very simple looking man with a bright pink mohawk..."
     },
     {
